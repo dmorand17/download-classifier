@@ -1,5 +1,14 @@
 # download-classifier
 
+Simple python application to classify downloads into folders
+
+- datasets
+- documents
+- images
+
+The application can be run as a docker container and whenver files are downloaded they will be moved into the respective folders.
+
+
 # Build
 
 ```bash
