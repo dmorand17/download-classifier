@@ -19,7 +19,7 @@ logging.basicConfig(filename="classification.log", level=logging.INFO)
 logging.getLogger().addHandler(logging.StreamHandler())
 
 folders = {
-    "images": [".jpg", ".png"],
+    "images": [".jpg", ".png", ".svg"],
     "documents": [".pdf", ".docx"],
     "datasets": [".xlsx", ".csv", ".json", ".xml"],
     "other": [],
